@@ -1857,7 +1857,7 @@ h1 {
   border-top:1px solid #f9f9f9;
 }
 .item-b .main {
-  margin:0 0 20px;
+  margin:0 0 21px;
 }
 .item-b .main .pic {
   display:inline-block;
@@ -1869,6 +1869,13 @@ h1 {
   width:100%;
   height:auto;
   margin:0 0 -4px;
+  -webkit-box-shadow:0 0 4px rgba(113,113,113,0.7);
+  box-shadow:0 0 4px rgba(113,113,113,0.7);
+}
+.item-b .wide {
+  width:100%;
+  height:auto;
+  margin:0 0 17px;
   -webkit-box-shadow:0 0 4px rgba(113,113,113,0.7);
   box-shadow:0 0 4px rgba(113,113,113,0.7);
 }
@@ -1894,4 +1901,180 @@ h1 {
   right:0;
   bottom:0;
   margin:0;
+}
+.item-b .characteristics {
+  margin:0 0 30px;
+}
+.item-b .characteristics h2 {
+  color: #01579b;
+  font-size:18px;
+  line-height:21px;
+  font-weight:normal;
+  font-family:'Roboto Slab', sans-serif;
+  text-align:center;
+  padding:0;
+  margin:0 0 21px;
+}
+.item-b .characteristics table {
+  width:100%;
+  margin:0 0 20px;
+}
+.item-b .characteristics table th {
+  color: #606060;
+  font-size:12px;
+  line-height:16px;
+  font-weight:normal;
+  text-align:center;
+  vertical-align:top;
+  padding:9px 6px 7px;
+  border:1px solid #e8e8e8;
+}
+.item-b .characteristics table th:nth-child(1) {
+  width:17%;
+}
+.item-b .characteristics table th:nth-child(2) {
+  width:12%;
+}
+.item-b .characteristics table th:nth-child(3) {
+  width:25%;
+}
+.item-b .characteristics table th:nth-child(4) {
+  width:21%;
+}
+.item-b .characteristics table td {
+  color:#000000;
+  font-size:12px;
+  line-height:16px;
+  text-align:center;
+  vertical-align:top;
+  padding:7px 6px 5px;
+  border:1px solid #e8e8e8;
+}
+.item-b .characteristics table tr:nth-child(2n+1) td {
+  background:url('../img/pattern-bg.png') repeat;
+}
+.item-b .characteristics ul {
+  margin:-7px 0 16px;
+}
+.item-b .characteristics ul li {
+  position:relative;
+  margin:0 0 14px;
+}
+.item-b .characteristics ul li:before {
+  content:'';
+  position:absolute;
+  left:0;
+  bottom:6px;
+  width:100%;
+  border-bottom:1px dotted #cacaca;
+}
+.item-b .characteristics ul li strong {
+  position:relative;
+  z-indeX:1;
+  display:inline-block;
+  color:#979797;
+  font-size:14px;
+  line-height:18px;
+  font-weight:normal;
+  vertical-align:top;
+  padding:0 12px 0 0;
+  background:#ffffff;
+}
+.item-b .characteristics ul li span {
+  position:absolute;
+  right:0;
+  bottom:0;
+  z-index:1;
+  display:block;
+  width:141px;
+  color:#000000;
+  font-size:14px;
+  line-height:18px;
+  padding:0 0 0 13px;
+  background:#ffffff;
+}
+.item-b .characteristics > div {
+  clear:both;
+  overflow:hidden;
+  margin:0 0 -22px;
+}
+.item-b .characteristics > div > div {
+  float:left;
+  width:320px;
+  margin:0 0 0 60px;
+}
+.item-b .characteristics > div > div:first-child {
+  margin-left:0;
+}
+.item-b .characteristics > div h4 {
+  color:#01579b;
+  font-size:18px;
+  line-height:21px;
+  font-weight:normal;
+  font-family:'Roboto Slab', sans-serif;
+  text-align:center;
+  padding:0;
+  marign:0 0 22px;
+}
+.item-b .characteristics > div p {
+  color:#4d4d4d;
+  font-size:14px;
+  line-height:18px;
+  margin:0 0 21px;
+}
+.item-b .download {
+  text-align:center;
+  padding:30px 0 0;
+  border-top:1px solid #cccccc;
+}
+.item-b .download button {
+  margin:-10px 6px 30px;
+}
+.item-b .download button.print {
+  background-color:#01579b;
+}
+.item-b .download ul {
+  text-align:left;
+  margin:0 0 -5px;
+}
+.item-b .download li {
+  display:inline-block;
+  width:100px;
+  vertical-align:top;
+  margin:0 17px 22px 0;
+}
+.item-b .download li:nth-child(6n) {
+  margin-right:-10px;
+}
+.item-b .download li a {
+  display:block;
+}
+.item-b .download li i {
+  display:block;
+  width:60px;
+  height:57px;
+  margin:0 auto 13px;
+  background-repeat:no-repeat;
+  background-position:0 0;
+}
+.item-b .download li i.icon-1 {
+  background-image:url('../img/download-icon-1.png');
+}
+.item-b .download li i.icon-2 {
+  background-image:url('../img/download-icon-2.png');
+}
+.item-b .download li i.icon-3 {
+  background-image:url('../img/download-icon-3.png');
+}
+.item-b .download li p {
+  color:#4a90e2;
+  font-size:11px;
+  line-height:18px;
+  text-align:center;
+  text-decoration:underline;
+  text-transform:uppercase;
+  margin:0;
+}
+.item-b .download li a:hover p {
+  text-decoration:none;
 }

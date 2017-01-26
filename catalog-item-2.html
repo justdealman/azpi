@@ -3,7 +3,7 @@
 <head>
 	<title>Алтайский завод прецизионных изделий</title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=1100, user-scalable=yes">
+	<meta name="viewport" content="width=device-width, user-scalable=yes">
 	<!--<link href="./favicon.ico" rel="shortcut icon">-->
 	<link href="./css/style.css" rel="stylesheet">
 	<!--[if IE 8]>
@@ -27,10 +27,10 @@
 		</div>
 		<header>
 			<div>
-				<img src="./img/logo.png" width="257" height="79" class="logo" alt="">
+				<div class="logo"><a href="#"></a></div>
 				<h4 class="phone"><a href="tel:+73852501400">+7 (3852) 501-400</a></h4>
 				<div class="search-e">
-					<input type="text" placeholder="Поиск по сайту, артиклу">
+					<input type="text" placeholder="Поиск по сайту">
 					<input type="submit" value="">
 				</div>
 				<nav>
@@ -51,6 +51,7 @@
 						<li><a href="#">Контакты</a></li>
 					</ul>
 				</nav>
+				<a href="#" class="maps mobile-show">Карты партнеров</a>
 			</div>
 		</header>
 		<div class="content-b">
@@ -61,6 +62,7 @@
 				<li><a href="#">>Электрогидроуправляемые Common Rail</a></li>
 				<li>525</li>
 			</ul>
+			<a href="#" class="go-back mobile-show">Форсунка 525.1112010-01</a>
 			<div class="lc">
 				<ul class="nav">
 					<li class="active">
@@ -139,8 +141,9 @@
 						</div>
 					</div>
 					<div class="download">
-						<button class="standart print">Распечатать</button>
+						<button class="standart print mobile-hide">Распечатать</button>
 						<button class="standart">Купить</button>
+						<button class="standart print mobile-show">Запчасти</button>
 						<ul>
 							<li>
 								<a href="#">
@@ -281,12 +284,21 @@
 				<p>Привелигированный поставщик для:</p>
 				<img src="./img/bosch-logo-2.png" width="97" height="22" alt="">
 			</div>
-			<p class="author">Разработка сайта: <a href="#"><img src="./img/letsrock-logo.svg" width="73" height="16" alt=""></p>
+			<p class="author">Разработка сайта: <a href="#"><img src="./img/letsrock-logo.svg" width="73" height="16" alt=""></a></p>
+			<div class="info mobile-show">
+				<ul class="lang">
+					<li class="active"><a href="#">рус</a></li>
+					<li><a href="#">eng</a></li>
+				</ul>
+				<p>АЗПИ Маркет</p>
+				<p>Торговая компания АЗПИ</p>
+			</div>
 		</div>
 	</footer>
 	<p class="warning-e">
 		<span>Осторожно контрафакт</span>
 	</p>
+	<div class="fade-bg"></div>
 	<script src="./js/libs.js"></script>
 	<script src="./js/scripts.js"></script>
 </body>
